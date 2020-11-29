@@ -2,7 +2,7 @@
 
 Get the weather information about your city.
 
-![Alt text](/public/weatherApp.png.png?raw=true "Weather")
+![Alt text](/public/weatherApp.png?raw=true "Weather")
 
 ## Available Scripts
 
