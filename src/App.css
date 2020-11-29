@@ -1,3 +1,82 @@
+html {
+  background: url("./images/background.jpg") no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+}
+
 .App {
+  margin: 10% 0;
   text-align: center;
+}
+
+h1 {
+  font-size: 50px;
+  margin: 0 0 22px;
+}
+
+input {
+  border: none;
+  border-radius: 4px;
+  font-size: 20px;
+  margin: 20px 20px 8px;
+  padding: 16px 24px;
+  width: 400px;
+}
+
+input:focus {
+  outline: none;
+}
+
+button {
+  background-color: #c86d1e;
+  border: none;
+  border-radius: 2px;
+  color: white;
+  display: block;
+  font-size: 20px;
+  margin: 20px auto;
+  padding: 15px 50px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.main {
+  padding: 20px;
+  font-size: 54px;
+  font-weight: bold;
+}
+
+.location {
+  display: inline-block;
+  font-weight: normal;
+  margin-left: 10px;
+}
+
+.metaData {
+  display: flex;
+  justify-content: center;
+}
+
+.metaDataTable {
+  backdrop-filter: blur(10px);
+  border-radius: 4px;
+  font-size: 20px;
+  line-height: 1.5;
+  padding: 20px 40px;
+  text-align: left;
+  width: 500px;
+}
+
+.row {
+  border-bottom: 1px solid #ffffff3d;
+  display: flex;
+  justify-content: space-between;
+  line-height: 2;
+  padding: 5px 0;
+}
+
+.row:last-child {
+  border-bottom: none;
 }
