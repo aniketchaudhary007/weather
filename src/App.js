@@ -14,7 +14,7 @@ class App extends React.Component {
     const { cityName } = this.state;
 
     event.preventDefault();
-    fetch(`http://api.weatherapi.com/v1/current.json?key=7e26a42064b3422aad8173714202911&q=${cityName}`)
+    fetch(`https://api.weatherapi.com/v1/current.json?key=7e26a42064b3422aad8173714202911&q=${cityName}`)
     .then(res => res.json())
       .then(
         (result) => {
